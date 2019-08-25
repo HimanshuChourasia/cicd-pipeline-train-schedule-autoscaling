@@ -47,7 +47,7 @@ spec:
 
 ---
 
-apiVersion: autoScaling/v2beta1
+apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
 metadata:
  name: hpa-train-schedule
